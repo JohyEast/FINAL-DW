@@ -211,3 +211,26 @@ footer img {
  color: var(--button-text);
  border: solid 2px black;
 }
+
+/* acceso */
+
+.acceso input {
+ border-radius: 10px;
+ height: 2rem;
+ background-color: var(--button);
+ border: solid 2px black;
+}
+
+.acceso button {
+ border-radius: 10px;
+ height: 2rem;
+ width: 5rem;
+ background-color: var(--button);
+ color: var(--button-text);
+ border: solid 2px black;
+}
+.acceso {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
