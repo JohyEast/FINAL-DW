@@ -7,18 +7,15 @@
   justify-content: space-around;
   width: 40px;
   height: 36px;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 7px;
   background-color: var(--button);
   border: solid 2px black;
- }
-
- .menu-toggle {
-  display: none;
+  margin-top: 0.3rem;
  }
 
  .menu-button span {
-  width: 40px;
+  width: 20px;
   height: 4px;
   background: var(--button-text);
  }
@@ -43,7 +40,52 @@
   padding: 10px 0;
   color: var(--button-text);
  }
- .manu-toggle:checked + .toggle {
+ .menu-toggle:checked + .toggle {
   display: block;
+ }
+
+ /* ocultando imagenes de navbar */
+ .img-mobile {
+  display: none;
+ }
+ .eti-span {
+  display: block;
+ }
+
+ /* seccion incio */
+ .inicio__text-img img {
+  display: none;
+ }
+
+ .inicio__text-img span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ }
+
+ /* seccion conocenos */
+ .conocenos__mi-vi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .mi-vi {
+  margin-top: 1rem;
+ }
+
+ /* seccion contacto */
+
+ .contacto__redes-iframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .contacto__redes-iframe iframe {
+  width: 60%;
+  margin-top: 1rem;
  }
 }
