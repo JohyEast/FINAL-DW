@@ -1,4 +1,4 @@
-@media (max-width: 525px) {
+@media (max-width: 600px) {
  /* Menu hamburguesa */
  .menu-button {
   margin: 0 auto;
@@ -11,6 +11,10 @@
   border-radius: 7px;
   background-color: var(--button);
   border: solid 2px black;
+ }
+
+ .menu-toggle {
+  display: none;
  }
 
  .menu-button span {
