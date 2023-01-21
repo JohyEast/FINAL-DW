@@ -81,6 +81,7 @@ h2 {
  width: 430px;
  border-radius: 20px;
  border: solid 2px black;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 
 .inicio__text-img span {
@@ -128,6 +129,7 @@ h2 {
  text-align: center;
  margin: 1rem;
  padding: 5px;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 
 .especialidad img {
@@ -157,6 +159,7 @@ h2 {
  background-color: var(--button);
  border-radius: 20px;
  border: solid 2px black;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 
 .contacto__redes a {
@@ -174,6 +177,7 @@ h2 {
 .contacto__redes-iframe iframe {
  border-radius: 20px;
  border: solid 2px black;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 /* footer */
 
@@ -201,6 +205,7 @@ footer img {
  height: 2rem;
  background-color: var(--button);
  border: solid 2px black;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 
 .registrarse button {
@@ -210,6 +215,7 @@ footer img {
  background-color: var(--button);
  color: var(--button-text);
  border: solid 2px black;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 
 /* acceso */
@@ -219,6 +225,7 @@ footer img {
  height: 2rem;
  background-color: var(--button);
  border: solid 2px black;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 
 .acceso button {
@@ -228,6 +235,7 @@ footer img {
  background-color: var(--button);
  color: var(--button-text);
  border: solid 2px black;
+ box-shadow: 10px 5px 5px var(--button-text);
 }
 .acceso {
  display: flex;
